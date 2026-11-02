@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from pathlib import Path
 
-filepath = "D:\\Learning\\IDS\\retail_marketing_sales.csv"
+filepath = Path(__file__).resolve().parents[1] / "data" / "retail_marketing_sales.csv"
 
 sns.set_style('darkgrid')
 
